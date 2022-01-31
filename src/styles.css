@@ -1,0 +1,134 @@
+body {
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(
+      217deg,
+      rgba(155, 155, 255, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(213, 234, 251, 0.5), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(250, 228, 112, 0.7), rgba(0, 0, 255, 0) 70.71%);
+  margin-top: 150px;
+  max-width: 1000px;
+  font-family: "Prata", serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 19px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.my-city {
+  display: inline;
+}
+
+.temperature {
+  display: inline;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: rgba(0, 157, 255, 0.274);
+  padding: 31px 30px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 255, 0.2);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 300px;
+}
+
+.card {
+  border-radius: 10px;
+  background: rgba(225, 240, 252, 0.8);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 255, 0.2);
+}
+
+.card-body {
+  height: 175px;
+}
+
+.city-input {
+  border-style: none;
+  border-radius: 10px;
+  background: rgba(225, 240, 252, 0.8);
+}
+
+#current-location {
+  text-align: left;
+  border-style: none;
+  border-radius: 10px;
+  background: rgba(225, 240, 252, 0.8);
+}
+
+:read-write {
+  border-style: none;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 255, 0.2);
+  background: rgba(225, 240, 252, 0.8);
+}
+
+.section-1 {
+  margin: 20px 20px;
+}
+
+.section-2 {
+  margin: 20px 20px;
+}
+
+.section-3 {
+  margin: 20px 20px;
+}
+
+.city-weather {
+  height: 175px;
+  max-width: 100%;
+  border-style: none;
+}
+
+.date-today {
+  display: inline;
+}
+
+.week-ahead-weather {
+  height: 200px;
+  width: 130px;
+  border-style: none;
+}
+
+.central-weather-icon {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-icon {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.other-weather {
+  position: relative;
+  top: -247px;
+  right: 76px;
+}
