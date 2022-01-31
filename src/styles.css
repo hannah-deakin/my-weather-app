@@ -132,3 +132,8 @@ h5 {
   top: -247px;
   right: 76px;
 }
+
+.footer {
+  display: block;
+  text-align: center;
+}
